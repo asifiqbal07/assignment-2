@@ -84,7 +84,7 @@ Top Banner Style
     border: 1px solid #ffffff;
     background-color: #ffffff;
     height: 45px;
-    width: 252px;
+    width: 200px;
     text-align: center;
     margin: 30px 30px;
     margin-bottom: 15px;
@@ -95,14 +95,14 @@ Top Banner Style
 .upcoming-match a {
     text-decoration: none;
     color: #161616;
-    font-size: 20px;
+    font-size: 18px;
     font-weight: 500;
 }
 .all-groups{
     border: 1px solid #ffffff;
     background-color: #ffffff;
     height: 45px;
-    width: 252px;
+    width: 200px;
     text-align: center;
     margin: 15px 30px;
     padding-top: 20px;
@@ -112,14 +112,14 @@ Top Banner Style
 .all-groups a {
     text-decoration: none;
     color: #161616;
-    font-size: 20px;
+    font-size: 18px;
     font-weight: 500;
 }
 .blog {
     border: 1px solid #DD0000;
     background-color: #DD0000;
     height: 45px;
-    width: 252px;
+    width: 200px;
     text-align: center;
     margin: 30px 30px;
     margin-top: 15px;
@@ -129,7 +129,7 @@ Top Banner Style
 .blog a {
     text-decoration: none;
     color: white;
-    font-size: 20px;
+    font-size: 18px;
     font-weight: 500;
 }
 .main-blog-news {
@@ -181,19 +181,35 @@ Top Banner Style
 }
 
 .fa-comment-dots {
-    margin-left: 10px;
+    margin-left: 15px;
+    margin-right: 7px;
 }
-/* Footer Style */
+.fa-clock{
+    margin-right: 7px;
+}
+/*------------
+Footer Style
+------------- */
 footer{
-    border: 1px solid #161616;
+    border: 50px solid #161616;
     background-color: #161616;
     text-align: center;
-    margin: 50px 0;
     color: white;
 }
-
+.hr{
+    opacity: 0.5;
+    border: 0.5px solid #FFFFFF;
+    width: 70%;
+}
 .footer-ancor{
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-top: 20px; 
+}
+.footer-ancor a{
+    color: #B9B9B9;
+    text-decoration: none;
+    padding: 30px;
+
 }
