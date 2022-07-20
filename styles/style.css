@@ -434,3 +434,77 @@ Tab Device
         width: 95%;
     }
 }
+
+/* ---------------------
+Upcoming Match Page Style
+----------------------- */
+
+.fixture{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-left: 20px;
+    grid-row-gap: 20px;
+    grid-column-gap: 20px;
+}
+.upcoming-match-news{
+    border: 1px solid gray;
+    border-radius: 10px;
+    width: 311px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.upcoming-match-team{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 20px;
+    
+}
+.upcoming-match-text{
+    text-align: center;
+}
+.upcoming-match-text h3{
+    size: 20px;
+    font-weight: 600;
+    color: #161616;
+}
+.upcoming-match-text p{
+    font-weight: 400;
+    color: #4D4D4D;
+}
+.upcoming-match2{
+    border: 1px solid #DD0000;
+    background-color: #DD0000;
+    height: 45px;
+    width: 200px;
+    text-align: center;
+    margin: 30px 30px;
+    margin-bottom: 15px;
+    padding-top: 20px;
+    border-radius: 10px;
+}
+.upcoming-match2 a{
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    font-weight: 500;
+}
+.blog2{
+    border: 1px solid #ffffff;
+    background-color: #ffffff;
+    height: 45px;
+    width: 200px;
+    text-align: center;
+    margin: 15px 30px;
+    margin-top: 15px;
+    padding-top: 20px;
+    border-radius: 10px;
+}  
+.blog2 a{
+    text-decoration: none;
+    color: #161616;
+    font-size: 18px;
+    font-weight: 500; 
+}
+
