@@ -192,6 +192,10 @@ Top Banner Style
     margin-right: 7px;
 }
 
+.view-all {
+    display: none;
+}
+
 /*------------
 Footer Style
 ------------- */
@@ -220,9 +224,11 @@ footer {
     text-decoration: none;
     padding: 30px;
 }
-.social-media-icon{
+
+.social-media-icon {
     margin-top: 30px;
 }
+
 .social-media-icon a {
     text-decoration: none;
     font-size: 25px;
@@ -305,4 +311,126 @@ Mobile Device
         justify-content: space-between;
     }
 
+}
+
+/* --------
+Tab Device
+-----------*/
+@media only screen and (min-width:688px) and (max-width:992px) {
+    .top-banner {
+        margin: 50px;
+    }
+
+    .banner-text {
+        width: 100%;
+        margin-left: 50px;
+    }
+
+    .banner-text h1 {
+        font-size: 40px;
+    }
+
+    .banner-text a {
+        height: 30px;
+        width: 40%;
+        margin-top: 20px;
+    }
+
+    .banner-text p {
+        margin: 0;
+        width: 80%;
+        font-size: 14px;
+        margin-top: -15px;
+    }
+
+    .main-blog {
+        flex-direction: column;
+        margin: 50px;
+        margin-top: 30px;
+    }
+
+    .main-blog-details {
+        border: 0px;
+        background-color: white;
+        width: 100%;
+        flex-direction: row;
+        height: 100%;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 50px;
+
+    }
+
+    .upcoming-match {
+        border: 1px solid gray;
+        height: 40px;
+        width: 220px;
+        text-align: center;
+        margin: 0;
+        margin-right: 20px;
+    }
+
+    .all-groups {
+        border: 1px solid gray;
+        height: 40px;
+        width: 220px;
+        margin: 0;
+        margin-right: 20px;
+    }
+
+    .blog {
+        height: 40px;
+        width: 220px;
+        margin: 0;
+        margin-left: 20px;
+    }
+
+    .main-blog-news {
+        grid-template-columns: repeat(2, 1fr);
+        margin-left: 0;
+        justify-items: center;
+    }
+
+    .match-news-h {
+        display: none;
+    }
+
+    .view-all {
+        display: initial;
+        text-align: center;
+        margin-top: 50px;
+        margin-left: 40%;
+    }
+    .view-all a{
+        text-decoration: none;
+        font-weight: 600;
+        color: #161616;
+        background-color: #fff6bf;
+        border-left: 5px solid #fce343;
+        height: 30px;
+        padding-top: 10px;
+        width: 25%;
+        display: block;
+    }
+
+    .footer-ancor {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-row-gap: 15px;
+        margin: 0;
+        margin-top: 20px;
+
+    }
+
+    .top-banner img {
+        height: 350px;
+    }
+
+    .footer-ancor a {
+        padding: 0px;
+    }
+
+    .hr {
+        width: 95%;
+    }
 }
