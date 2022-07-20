@@ -162,7 +162,7 @@ Top Banner Style
 .news-text a {
     text-decoration: none;
     color: #161616;
-    border: 2px solid #161616;
+    border: 1px solid #161616;
     height: 20px;
     width: 30%;
     background-color: #fcfcfc;
@@ -401,7 +401,8 @@ Tab Device
         margin-top: 50px;
         margin-left: 40%;
     }
-    .view-all a{
+
+    .view-all a {
         text-decoration: none;
         font-weight: 600;
         color: #161616;
@@ -439,14 +440,15 @@ Tab Device
 Upcoming Match Page Style
 ----------------------- */
 
-.fixture{
+.fixture {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     margin-left: 20px;
     grid-row-gap: 20px;
     grid-column-gap: 20px;
 }
-.upcoming-match-news{
+
+.upcoming-match-news {
     border: 1px solid gray;
     border-radius: 10px;
     width: 311px;
@@ -454,26 +456,31 @@ Upcoming Match Page Style
     flex-direction: column;
     justify-content: center;
 }
-.upcoming-match-team{
+
+.upcoming-match-team {
     display: flex;
     align-items: center;
     justify-content: space-between;
     margin: 20px;
-    
+
 }
-.upcoming-match-text{
+
+.upcoming-match-text {
     text-align: center;
 }
-.upcoming-match-text h3{
+
+.upcoming-match-text h3 {
     size: 20px;
     font-weight: 600;
     color: #161616;
 }
-.upcoming-match-text p{
+
+.upcoming-match-text p {
     font-weight: 400;
     color: #4D4D4D;
 }
-.upcoming-match2{
+
+.upcoming-match2 {
     border: 1px solid #DD0000;
     background-color: #DD0000;
     height: 45px;
@@ -484,27 +491,56 @@ Upcoming Match Page Style
     padding-top: 20px;
     border-radius: 10px;
 }
-.upcoming-match2 a{
+
+.upcoming-match2 a {
     text-decoration: none;
     color: white;
     font-size: 18px;
     font-weight: 500;
 }
-.blog2{
+
+.blog2 {
     border: 1px solid #ffffff;
     background-color: #ffffff;
     height: 45px;
     width: 200px;
     text-align: center;
-    margin: 15px 30px;
+    margin: 30px 30px;
     margin-top: 15px;
     padding-top: 20px;
     border-radius: 10px;
-}  
-.blog2 a{
+}
+
+.blog2 a {
     text-decoration: none;
     color: #161616;
     font-size: 18px;
-    font-weight: 500; 
+    font-weight: 500;
 }
 
+/* ----------------
+Media Queries
+-------------------*/
+
+/* ----------
+Mobile Device
+-------------*/
+
+@media only screen and (max-width:688px) {
+    .fixture {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .upcoming-match-news {
+        background-color: white;
+        width: 100%;
+    }
+    .upcoming-match-team{
+        width: 90%;
+    }
+    .blog2 {
+        border: 1px solid gray;
+        height: 45px;
+        width: 200px;
+    }
+}
