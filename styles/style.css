@@ -1,0 +1,139 @@
+/*--------
+Body Style
+----------*/
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #fcfcfc;
+    margin: 0%;
+}
+
+/* -----------------
+Top Banner Style
+--------------------*/
+.top-banner {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    border: 1px solid #161616;
+    border-radius: 20px;
+    background-color: #161616;
+    margin: 50px 130px;
+}
+
+.banner-text {
+    color: white;
+    width: 45%;
+    margin-top: 1%;
+
+}
+
+.banner-text h1 {
+    font-size: 70px;
+    font-weight: 600;
+}
+
+.banner-text p {
+    margin-top: -40px;
+    width: 80%;
+}
+
+.banner-text a {
+    text-decoration: none;
+    margin-top: 40px;
+    color: #161616;
+    font-weight: 600;
+    background-color: #fff6bf;
+    border-left: 5px solid #fce343;
+    height: 30px;
+    padding-left: 10px;
+    padding-top: 10px;
+    width: 25%;
+    display: block;
+}
+
+.fa-arrow-right {
+    margin-left: 10px;
+    color: #161616
+}
+
+.top-banner img {
+    height: 550px;
+    margin-right: 80px;
+    margin-left: 20%;
+}
+
+/* ------
+ Main Blog 
+ ---------*/
+.main-blog {
+    display: flex;
+    margin: 100px 130px;
+}
+
+.main-blog-details {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #161616;
+    background-color: #161616;
+}
+
+.blog a {
+    text-decoration: none;
+    text-align: center;
+    border: 1px solid #ffffff;
+    background-color: #ffffff;
+}
+
+.all-groups a {
+    text-decoration: none;
+    text-align: center;
+    border: 1px solid #ffffff;
+    background-color: #ffffff;
+}
+
+.upcoming-match a {
+    text-decoration: none;
+    text-align: center;
+    border: 1px solid #ffffff;
+    background-color: #ffffff;
+}
+
+.match-news {
+    display: flex;
+    flex-direction: column;
+}
+
+.match-news img {
+    width: 312px;
+    height: 175px;
+}
+
+.news-text {
+    color: #161616;
+    padding: 15px;
+}
+
+.news-text a {
+    text-decoration: none;
+    color: #161616;
+    border: 2px solid #161616;
+    height: 20px;
+    width: 20%;
+    background-color: #fcfcfc;
+    display: block;
+    text-align: center;
+    border-radius: 5px;
+    font-weight: 500;
+
+}
+.tittle{
+    font-size: 18px;
+    font-weight: 600;
+}
+.blog-icons{
+    color:#161616B2;
+    font-weight: 400px;
+}
+.fa-comment-dots {
+    margin-left: 10px;
+}
