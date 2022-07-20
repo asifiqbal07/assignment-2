@@ -58,8 +58,6 @@ Top Banner Style
 
 .top-banner img {
     height: 550px;
-    margin-right: 80px;
-    margin-left: 20%;
 }
 
 /* ------
@@ -80,6 +78,7 @@ Top Banner Style
     justify-content: center;
     align-items: center;
 }
+
 .upcoming-match {
     border: 1px solid #ffffff;
     background-color: #ffffff;
@@ -98,7 +97,8 @@ Top Banner Style
     font-size: 18px;
     font-weight: 500;
 }
-.all-groups{
+
+.all-groups {
     border: 1px solid #ffffff;
     background-color: #ffffff;
     height: 45px;
@@ -115,6 +115,7 @@ Top Banner Style
     font-size: 18px;
     font-weight: 500;
 }
+
 .blog {
     border: 1px solid #DD0000;
     background-color: #DD0000;
@@ -126,12 +127,14 @@ Top Banner Style
     padding-top: 20px;
     border-radius: 10px;
 }
+
 .blog a {
     text-decoration: none;
     color: white;
     font-size: 18px;
     font-weight: 500;
 }
+
 .main-blog-news {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -184,32 +187,122 @@ Top Banner Style
     margin-left: 15px;
     margin-right: 7px;
 }
-.fa-clock{
+
+.fa-clock {
     margin-right: 7px;
 }
+
 /*------------
 Footer Style
 ------------- */
-footer{
+footer {
     border: 50px solid #161616;
     background-color: #161616;
     text-align: center;
     color: white;
 }
-.hr{
+
+.hr {
     opacity: 0.5;
     border: 0.5px solid #FFFFFF;
     width: 70%;
 }
-.footer-ancor{
+
+.footer-ancor {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-top: 20px; 
+    margin-top: 20px;
 }
-.footer-ancor a{
+
+.footer-ancor a {
     color: #B9B9B9;
     text-decoration: none;
     padding: 30px;
+}
+.social-media-icon{
+    margin-top: 30px;
+}
+.social-media-icon a {
+    text-decoration: none;
+    font-size: 25px;
+    color: white;
+    padding: 10px;
+}
+
+/* ----------------
+Media Queries
+-------------------*/
+
+/* ----------
+Mobile Device
+-------------*/
+@media only screen and (max-width:688px) {
+    .top-banner {
+        margin: 21px;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .banner-text {
+        width: 80%;
+    }
+
+    .banner-text h1 {
+        font-size: 22px;
+        text-align: center;
+    }
+
+    .banner-text a {
+        height: 30px;
+        text-align: center;
+        width: 60%;
+        margin-top: 20px;
+        margin-left: 40px;
+    }
+
+    .banner-text p {
+        margin: 0;
+        width: 100%;
+        font-size: 14px;
+    }
+
+    .main-blog {
+        flex-direction: column;
+        margin: 21px;
+    }
+
+    .main-blog-details {
+        border: 0px;
+        background-color: white;
+        width: 100%;
+    }
+
+    .upcoming-match {
+        border: 1px solid gray;
+        height: 45px;
+        width: 200px;
+    }
+
+    .all-groups {
+        border: 1px solid gray;
+        height: 45px;
+        width: 200px;
+    }
+
+    .main-blog-news {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .match-news-h {
+        display: none;
+    }
+
+    .footer-ancor {
+        flex-direction: column;
+        height: 300px;
+        justify-content: space-between;
+    }
 
 }
