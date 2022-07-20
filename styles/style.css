@@ -49,11 +49,18 @@ Top Banner Style
     padding-top: 10px;
     width: 25%;
     display: block;
+    transition: width 2s;
+}
+
+.top-banner a:hover {
+    width: 80%;
+    border: 5px solid #fce343;
+
 }
 
 .fa-arrow-right {
     margin-left: 10px;
-    color: #161616
+    color: #161616;
 }
 
 .top-banner img {
@@ -98,6 +105,10 @@ Top Banner Style
     font-weight: 500;
 }
 
+.upcoming-match a:hover {
+    color: #fce343;
+}
+
 .all-groups {
     border: 1px solid #ffffff;
     background-color: #ffffff;
@@ -117,8 +128,8 @@ Top Banner Style
 }
 
 .blog {
-    border: 1px solid #DD0000;
-    background-color: #DD0000;
+    border: 1px solid #fce343;
+    background-color: #fce343;
     height: 45px;
     width: 200px;
     text-align: center;
@@ -130,9 +141,14 @@ Top Banner Style
 
 .blog a {
     text-decoration: none;
-    color: white;
+    color: #161616;
     font-size: 18px;
     font-weight: 500;
+}
+
+.blog a:hover {
+    color: white;
+
 }
 
 .main-blog-news {
@@ -400,6 +416,12 @@ Tab Device
         text-align: center;
         margin-top: 50px;
         margin-left: 40%;
+        transition: width 3s;
+    }
+
+    .view-all:hover {
+        width: 40%;
+        border: 4px solid #fce343;
     }
 
     .view-all a {
@@ -481,8 +503,8 @@ Upcoming Match Page Style
 }
 
 .upcoming-match2 {
-    border: 1px solid #DD0000;
-    background-color: #DD0000;
+    border: 1px solid #fce343;
+    background-color: #fce343;
     height: 45px;
     width: 200px;
     text-align: center;
@@ -494,28 +516,35 @@ Upcoming Match Page Style
 
 .upcoming-match2 a {
     text-decoration: none;
-    color: white;
+    color: #161616;
     font-size: 18px;
     font-weight: 500;
 }
-.all-groups2{
+
+.upcoming-match2 a:hover {
+    color: white
+}
+
+.all-groups2 {
     border: 1px solid #ffffff;
     background-color: #ffffff;
     height: 45px;
     width: 200px;
     text-align: center;
     margin: 30px 30px;
+    margin-bottom: 15px;
     margin-top: 15px;
     padding-top: 20px;
     border-radius: 10px;
 }
 
-.all-groups2 a{
+.all-groups2 a {
     text-decoration: none;
     color: #161616;
     font-size: 18px;
     font-weight: 500;
 }
+
 .blog2 {
     border: 1px solid #ffffff;
     background-color: #ffffff;
@@ -533,6 +562,9 @@ Upcoming Match Page Style
     color: #161616;
     font-size: 18px;
     font-weight: 500;
+}
+.blog2 a:hover{
+    color: #fce343;
 }
 
 /* ----------------
@@ -559,6 +591,7 @@ Mobile Device
         height: 45px;
         width: 200px;
     }
+
     .all-groups2 {
         border: 1px solid gray;
         height: 45px;
@@ -593,7 +626,8 @@ Tab Device
         margin: 0;
         margin-right: 20px;
     }
-    .all-groups2{
+
+    .all-groups2 {
         border: 1px solid gray;
         height: 40px;
         width: 220px;
